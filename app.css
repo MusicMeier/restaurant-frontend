@@ -1,0 +1,35 @@
+#restaurant-card-container {
+    /* display: flex;
+    flex-flow: row wrap;
+    align-content: space-around; */
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+div {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* max-width: 600px;
+    max-height: 300px; */
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+}
+
+img {
+    max-width: 150px;
+    max-height: 100px;
+    margin: auto;
+    text-align: center;
+}
+h3 {
+    word-wrap: break-word;
+}
+
+/* img {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+} */
