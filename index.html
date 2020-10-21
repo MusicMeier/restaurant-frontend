@@ -7,31 +7,39 @@
         <title>Cuisine</title>
         <link rel="stylesheet" href="app.css" />
         <script defer src="index.js"></script>
-        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        </style>
     </head>
 
     <body>
-        <header><h1>Restaurants by Chance</h1></header>
+        <header>
+            <h1>Restaurants by Chance</h1>
+        </header>
 
         <main>
             <section id="search-and-forms">
-                
-                <div id="surpriseCard">
-                    <label>Feeling Spontaneous? </label>
-                    <button onclick="surpriseRestaurant()">Click me!</button>
-                </div>
-                
-                <form>
+                <form class="cuisine-search">
                     <br>
                     <label for="cuisine-filter">Search by Cuisine:</label>
-                    <input id="cuisine-filter" name="search_term" placeholder="Cuisine"/>
-                    <input type="submit" value="Search Cuisine" />
+                    <input id="cuisine-box" name="search_term" placeholder="Cuisine"/>
+                    <input id="cuisine-button" type="submit" value="Search Cuisine" />
                 </form>
-
             </section>
+
+            <section class="surprise">
+                <div id="surpriseCard">
+                    <h1><label for="suprise-card-info">Feeling Spontaneous? </label></h1>
+                    <h4>First appetizer is on us, TJ! ;-)</h4>
+                    <img src="https://cdn.gcb.today/images/logo-giftcard.png" />
+                    <button id="suprise-card-info" onclick="surpriseRestaurant()">Click me!</button>
+                    <br>
+                </div>
+            </section>
+
             <section id="restaurant-card-container">
-
             </section>
+
         </main>
     </body>
 

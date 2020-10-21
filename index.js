@@ -19,9 +19,9 @@ fetch(restaurantURL)
         const restaurantCard = document.createElement('div')
         const restaurantName = document.createElement('h1')
         const restaurantImage = document.createElement('img')
-        const restaurantInfo = document.createElement('h3')
+        const restaurantInfo = document.createElement('div')
         
-        restaurantCard.classList.add = "restaurant-show-card"
+        restaurantCard.classList.add("restaurant-show-card")
         
         restaurantName.innerHTML = `
         <a href="/showRestaurant.html?restaurantId=${restaurant.id}">${restaurant.name}</a>
@@ -33,6 +33,7 @@ fetch(restaurantURL)
         <p><label>Price: </label>${restaurant.price}</p>
         <p><label>Location: </label>${restaurant.location.neighborhood}<p>
         `
+        restaurantInfo.className = "card-info"
 
         restaurantCard.append(restaurantName, restaurantImage, restaurantInfo)
         restaurantContainer.append(restaurantCard)
@@ -43,14 +44,13 @@ function surpriseRestaurant() {
     fetch(restaurantURL)
     .then(response => response.json())
     .then(restaurants => {
-        console.log("What is this object?", restaurants)
         let randomNumber = Math.floor(Math.random() * (restaurants.length));
         document.getElementById("surpriseCard").innerHTML = `
-        <h1>${restaurants[randomNumber].name}</h1>
+        <p><strong>${restaurants[randomNumber].name}</strong></p>
         <img src="${restaurants[randomNumber].logo}">
-        <h3><label>Rating: </labe>${restaurants[randomNumber].rating}</h3>
-        <h3><label>Price: </labe>${restaurants[randomNumber].price}</h3>
-        <h3><label>Location: </labe>${restaurants[randomNumber].location.neighborhood}</h3>
+        <p><label>Rating: </labe>${restaurants[randomNumber].rating}</p>
+        <p><label>Price: </labe>${restaurants[randomNumber].price}</p>
+        <p><label>Location: </labe>${restaurants[randomNumber].location.neighborhood}</p>
         `
     })
 }
