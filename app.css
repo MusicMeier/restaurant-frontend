@@ -24,7 +24,9 @@ img {
     text-align: center;
 }
 h3 {
-    word-wrap: break-word;
+    /* word-wrap: break-word; */
+    /* display: flex; */
+    vertical-align: bottom;
 }
 
 /* img {

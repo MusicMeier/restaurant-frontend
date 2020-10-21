@@ -37,4 +37,20 @@ fetch(restaurantURL)
         restaurantCard.append(restaurantName, restaurantImage, restaurantInfo)
         restaurantContainer.append(restaurantCard)
     })
-});
+})
+
+function surpriseRestaurant() {
+    fetch(restaurantURL)
+    .then(response => response.json())
+    .then(restaurants => {
+        console.log("What is this object?", restaurants)
+        let randomNumber = Math.floor(Math.random() * (restaurants.length));
+        document.getElementById("surpriseCard").innerHTML = `
+        <h1>${restaurants[randomNumber].name}</h1>
+        <img src="${restaurants[randomNumber].logo}">
+        <h3><label>Rating: </labe>${restaurants[randomNumber].rating}</h3>
+        <h3><label>Price: </labe>${restaurants[randomNumber].price}</h3>
+        <h3><label>Location: </labe>${restaurants[randomNumber].location.neighborhood}</h3>
+        `
+    })
+}
