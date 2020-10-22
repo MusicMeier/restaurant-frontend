@@ -13,37 +13,42 @@
     </head>
 
     <body>
+
         <header>
+
             <section class="app-logo">
                 <img id="header-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSczseWSwWq3pj7uyukWhGhS5IUFBjLy9d8iA&usqp=CAU"/>
             </section> 
-            <h1>mysterEAT</h1>
+
+            <h1 id="header-name">mysterEAT</h1>
+
+            <form class="cuisine-search">
+                <br>
+                <label for="cuisine-box">Search: </label>
+                <input id="cuisine-box" name="search_term" placeholder="Cuisine"/>
+                <input id="cuisine-button" type="submit" value="Search Cuisine" />
+            </form>
+
         </header>
 
         <main>
-            <section id="search-and-forms">
-                <form class="cuisine-search">
-                    <br>
-                    <label for="cuisine-filter">Search by Cuisine:</label>
-                    <input id="cuisine-box" name="search_term" placeholder="Cuisine"/>
-                    <input id="cuisine-button" type="submit" value="Search Cuisine" />
-                </form>
-            </section>
 
             <section class="surprise">
                 <div id="surpriseCard">
                     <h1><label for="suprise-card-info">Feeling Spontaneous? </label></h1>
-                    <h4>First appetizer is on us, TJ! ;-)</h4>
+                    <h4>20% off your first order at ...</h4>
                     <img src="https://cdn.gcb.today/images/logo-giftcard.png" />
                     <button id="suprise-card-info" onclick="surpriseRestaurant()">Click me!</button>
                     <br>
                 </div>
+
             </section>
 
             <section id="restaurant-card-container">
             </section>
 
         </main>
+
     </body>
 
 </html>
