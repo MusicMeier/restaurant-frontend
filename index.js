@@ -61,7 +61,7 @@ function surpriseRestaurant() {
         <div class="card-info"><p><label>Rating: </label>${restaurants[randomNumber].rating}</p>
         <p><label>Price: </label>${restaurants[randomNumber].price}</p>
         <p><label>Location: </label>${restaurants[randomNumber].location.neighborhood}</p></div>
-        <button id="suprise-card-info-button-back" onclick="surpriseRestaurant()">Try Again!</button>
+        <button id="suprise-card-info-button-back" onclick="surpriseRestaurant()">Meh... Next?</button>
         `
     })
 }
