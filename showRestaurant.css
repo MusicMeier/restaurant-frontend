@@ -4,3 +4,9 @@ img {
     margin: auto;
     text-align: center;
 }
+
+body {
+    background-image: url("https://img3.stockfresh.com/files/u/unikpix/m/70/7612784_stock-photo-christmas-menu-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

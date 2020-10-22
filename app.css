@@ -10,27 +10,22 @@ header {
     padding-left: 30px;
     display: flex;
     justify-content: space-between;
+    border-radius: 8px;
 }
-
-/* .app-logo {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-} */
 
 #header-image {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }
 
 #header-name {
     font-weight: bolder;
     padding-left: 285px;
-    /* color: #00A699; */
 }
 
 body {
-    /* background-color: #ff5a6021; */
     background-color: whitesmoke;
+    cursor: pointer;
 }
 .cuisine-search {
     font-weight: bolder;
@@ -51,6 +46,7 @@ body {
 }
 
 #cuisine-button{
+    cursor: pointer;
     box-shadow: 0px 4px 4px 0px rgba(107, 105, 105, 0.2);
     font-family: 'Roboto', sans-serif;
     display: inline-block !important;
@@ -82,7 +78,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
     width: 335px;
-    height: 300px;
+    height: 350px;
     background-color: white;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -90,10 +86,12 @@ body {
     margin-left: 10px;
     display: flex;
     flex-direction: column;
+    border-radius: 8px;
 } 
 
 
-button {
+#suprise-card-info-button {
+    cursor: pointer;
     box-shadow: 0px 4px 4px 0px rgba(107, 105, 105, 0.2);
     font-family: 'Roboto';
     display: inline-block !important;
@@ -114,7 +112,6 @@ button {
     padding-left: 16px !important;
     padding-right: 16px !important;
     border: none !important;
-    /* color: black !important; */
     color: white;
     background: #00A699 !important;
 }
@@ -133,7 +130,7 @@ button {
     margin: auto;
     text-align: center;
     width: 335px;
-    height: 300px;
+    height: 400px;
     background-color: white;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -141,12 +138,32 @@ button {
     margin-left: 10px;
     display: flex;
     flex-direction: column;
+    border-radius: 8px;
+}
+
+#reset-button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Roboto';
+    position: fixed;
+    top: 93.5%;
+    left: 95%;
+    border-radius: 50%;
+    z-index: 3;
+    background: #00A699;
+    border: none;
+    padding-top: 10px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    color: white;
     
 }
 
 img {
     max-width: 150px;
-    max-height: 100px;
+    max-height: 125px;
     margin: auto;
     text-align: center;
 }
