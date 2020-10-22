@@ -22,6 +22,8 @@ fetch(restaurantURL)
         const restaurantInfo = document.createElement('div')
         
         restaurantCard.classList.add("restaurant-show-card")
+
+        restaurantImage.id = "restaurant-card-images"
         
         restaurantName.textContent = restaurant.name
         // `
@@ -55,7 +57,7 @@ function surpriseRestaurant() {
         let randomNumber = Math.floor(Math.random() * (restaurants.length));
         document.getElementById("surpriseCard").innerHTML = `
         <p><strong>${restaurants[randomNumber].name}</strong></p>
-        <img src="${restaurants[randomNumber].logo}">
+        <img id="back-image" src="${restaurants[randomNumber].logo}">
         <p><label>Rating: </labe>${restaurants[randomNumber].rating}</p>
         <p><label>Price: </labe>${restaurants[randomNumber].price}</p>
         <p><label>Location: </labe>${restaurants[randomNumber].location.neighborhood}</p>
