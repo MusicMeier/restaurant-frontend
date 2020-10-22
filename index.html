@@ -25,7 +25,7 @@
             <form class="cuisine-search">
                 <br>
                 <label for="cuisine-box">Search: </label>
-                <input id="cuisine-box" name="search_term" placeholder="Cuisine"/>
+                <input id="cuisine-box" name="search_term" placeholder="Cuisine">  
                 <input id="cuisine-button" type="submit" value="Search Cuisine" />
             </form>
 
@@ -38,17 +38,17 @@
                     <h1><label for="suprise-card-info">Feeling Spontaneous? </label></h1>
                     <h4>20% off your first order at ...</h4>
                     <img src="https://cdn.gcb.today/images/logo-giftcard.png" />
-                    <button id="suprise-card-info" onclick="surpriseRestaurant()">Click me!</button>
+                    <button id="suprise-card-info-button" onclick="surpriseRestaurant()">Click me!</button>
                     <br>
                 </div>
-
             </section>
-
+            
             <section id="restaurant-card-container">
             </section>
-
+            
+            <button id="reset-button" onclick="handleClick()">Top</button>
         </main>
-
+        
     </body>
 
 </html>

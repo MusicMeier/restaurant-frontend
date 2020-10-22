@@ -23,12 +23,15 @@ fetch(restaurantURL)
         
         restaurantCard.classList.add("restaurant-show-card")
         
-        restaurantName.innerHTML = `
-        <a href="/showRestaurant.html?restaurantId=${restaurant.id}">${restaurant.name}</a>
-        `
+        restaurantName.textContent = restaurant.name
+        // `
+        // <a href="/showRestaurant.html?restaurantId=${restaurant.id}">${restaurant.name}</a>
+        // `
+
         restaurantImage.src = `${restaurant.logo}`
         
         restaurantInfo.innerHTML = `
+        <p><label>Phone Number: </label>${restaurant.phone_number}</p>
         <p><label>Rating: </label>${restaurant.rating}</p>
         <p><label>Price: </label>${restaurant.price}</p>
         <p><label>Location: </label>${restaurant.location.neighborhood}<p>
@@ -39,6 +42,11 @@ fetch(restaurantURL)
         restaurantContainer.append(restaurantCard)
     })
 })
+
+const handleClick = () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 
 function surpriseRestaurant() {
     fetch(restaurantURL)
