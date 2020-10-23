@@ -107,7 +107,7 @@ end
 
 We're looking forward to rolling-out the following features:
 <li>Create a user sign-in workflow.</li>
-<li>Save favorite restaurants.</li>
+<li>Ability to select your favorite restaurants.</li>
 <li>Introduce a search filter by location.</li>
 
 
