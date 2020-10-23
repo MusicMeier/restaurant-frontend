@@ -54,6 +54,28 @@ You are now ready to start using the first iteration of mysterEAT!<br>
 
 <h2>Code Examples</h2>
 
+
+```
+function surpriseRestaurant() {
+    fetch(restaurantURL)
+    .then(response => response.json())
+    .then(restaurants => {
+        let randomNumber = Math.floor(Math.random() * (restaurants.length));
+        document.getElementById("surpriseCard").innerHTML = `
+        <p><strong>${restaurants[randomNumber].name}</strong></p>
+        <img id="back-image" src="${restaurants[randomNumber].logo}">
+        <div class="card-info">
+            <p><label>Rating: </label>${restaurants[randomNumber].rating}</p>
+            <p><label>Price: </label>${restaurants[randomNumber].price}</p>
+            <p><label>Location: </label>${restaurants[randomNumber].location.neighborhood}</p>
+        </div>
+        <button id="suprise-card-info-button-back" onclick="surpriseRestaurant()">Meh... Next?</button>
+        `
+    })
+}
+```
+
+
 <h2>App Preview</h2>
 <img src="https://i.ibb.co/xmZDVr0/Screen-Shot-2020-10-02-at-10-37-54-AM.png" alt="Welcome Screen" border="0"><br>
 
