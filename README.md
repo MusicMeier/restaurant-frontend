@@ -103,17 +103,6 @@ end
 <img src="https://i.imgur.com/7Wg9P5n.png" border="0"><br>
 <img src="https://i.imgur.com/fFRTnhQ.png" border="0"><br>
 
-<h2>User Stories</h2>
-
-<h3>As a user, you will be able to:</h3>
-
-<ol>
-<li>Join the Studio Ghibli community.</li>
-<li>See a curated list of the top 10 film suggestions based on Rotten Tomatoes scores.</li>
-<li>Explore the Studio Ghibli film catalogue.</li>
-<li>See and add films to a list of your favorites.</li>
-</ol>
-
 <h2>Status</h2>
 
 <p>We set out to match users based on favorite films. We would’ve liked to create an app that delivered on that.</p>
@@ -127,6 +116,3 @@ With time, we would've liked to refactor our code and add features such as:
 <h2>Contact</h2>
 <a href="https://www.linkedin.com/in/tiffany-kanjanabout/"><img src="https://user-images.githubusercontent.com/68958970/94946276-dc7b8a00-04a9-11eb-9431-366689b9fa06.png" alt="Music Meier" style="width:10px;height:10px;"></a>Music Meier :octocat:<br>
 <a href="https://www.linkedin.com/in/jonathannoriega/"><img src="https://user-images.githubusercontent.com/68958970/94946276-dc7b8a00-04a9-11eb-9431-366689b9fa06.png" alt="Jon Noriega" style="width:10px;height:10px;"></a>Jon Noriega :ocean:<br>
-
-<h2>API Reference</h2>
-[Studio Ghibli API](https://ghibliapi.herokuapp.com/)
