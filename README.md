@@ -43,7 +43,7 @@ You are now ready to start using the first iteration of mysterEAT!<br>
 
 <i>*Please note that some features are still a work in progress.</i>
 
-<h2>Instructions</h2><br>
+<h2>Instructions</h2>
 <ol>
  <li>Explore our catalog of Denver's highly-rated restaurants.</li>
  <li>If you're in a hurry & feeling spontaneous take a chance with our mysterEAT button.</li>
