@@ -54,7 +54,7 @@ You are now ready to start using the first iteration of mysterEAT!<br>
 
 <h2>Code Examples</h2>
 
-<h3>Randomize Function</h3>
+<h4>Randomize Function:</h4>
 
 ```
 function surpriseRestaurant() {
