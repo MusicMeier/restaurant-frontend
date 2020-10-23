@@ -99,9 +99,9 @@ end
 ```
 
 <h2>App Preview</h2>
-<img src="https://i.imgur.com/1J5kitb.png" border="0" style="width:auto;height:30%;"/><br>
-<img src="https://i.imgur.com/7Wg9P5n.png" border="0" style="width:auto;height:4%;"/><br>
-<img src="https://i.imgur.com/fFRTnhQ.png" border="0" style="width:auto;height:4%;"/><br>
+<img src="https://i.imgur.com/1J5kitb.png" border="0" style="width:50px;height:50px;"/><br>
+<img src="https://i.imgur.com/7Wg9P5n.png" border="0" style="width:25px;height:25px;"/><br>
+<img src="https://i.imgur.com/fFRTnhQ.png" border="0" style="width:75px;height:75px;"/><br>
 
 <h2>Status</h2>
 
