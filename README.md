@@ -99,9 +99,9 @@ end
 ```
 
 <h2>App Preview</h2>
-<img src="https://i.ibb.co/xmZDVr0/Screen-Shot-2020-10-02-at-10-37-54-AM.png" alt="Welcome Screen" border="0"><br>
-
-<img src="https://i.ibb.co/QksvhH4/Screen-Shot-2020-10-02-at-10-52-47-AM.png" alt="Log in screen">
+<img src="https://i.imgur.com/1J5kitb.png" border="0"><br>
+<img src="https://i.imgur.com/7Wg9P5n.png" border="0"><br>
+<img src="https://i.imgur.com/fFRTnhQ.png" border="0"><br>
 
 <h2>User Stories</h2>
 
@@ -125,7 +125,7 @@ With time, we would've liked to refactor our code and add features such as:
 <li>Once a user signs up, returning that user to log in screen.</li>
 
 <h2>Contact</h2>
-<a href="https://www.linkedin.com/in/tiffany-kanjanabout/"><img src="https://user-images.githubusercontent.com/68958970/94946276-dc7b8a00-04a9-11eb-9431-366689b9fa06.png" alt="Tiffany Kanjanabout" style="width:10px;height:10px;"></a>Tiffany Kanjanabout :octocat:<br>
+<a href="https://www.linkedin.com/in/tiffany-kanjanabout/"><img src="https://user-images.githubusercontent.com/68958970/94946276-dc7b8a00-04a9-11eb-9431-366689b9fa06.png" alt="Music Meier" style="width:10px;height:10px;"></a>Music Meier :octocat:<br>
 <a href="https://www.linkedin.com/in/jonathannoriega/"><img src="https://user-images.githubusercontent.com/68958970/94946276-dc7b8a00-04a9-11eb-9431-366689b9fa06.png" alt="Jon Noriega" style="width:10px;height:10px;"></a>Jon Noriega :ocean:<br>
 
 <h2>API Reference</h2>
