@@ -105,13 +105,11 @@ end
 
 <h2>Status</h2>
 
-<p>We set out to match users based on favorite films. We would’ve liked to create an app that delivered on that.</p>
+We're looking forward to rolling-out the following features:
+<li>Create a user sign-in workflow.</li>
+<li>Save favorite restaurants.</li>
+<li>Introduce a search filter by location.</li>
 
-With time, we would've liked to refactor our code and add features such as:
-<li>Updating Favorites</li>
-<li>Removing Favorites</li>
-<li>Match with a Friend</li>
-<li>Once a user signs up, returning that user to log in screen.</li>
 
 <h2>Contact</h2>
 <a href="https://www.linkedin.com/in/tiffany-kanjanabout/"><img src="https://user-images.githubusercontent.com/68958970/94946276-dc7b8a00-04a9-11eb-9431-366689b9fa06.png" alt="Music Meier" style="width:10px;height:10px;"></a>Music Meier :octocat:<br>
