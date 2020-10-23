@@ -10,11 +10,14 @@ mysterEAT is a cutting-edge single-page web-based application that allows users 
 
 <h2>Inspiration</h2>
 
-<p>We started our project with the hope of connecting people through a common interest. Studio Ghibli films are beloved by many, and we wanted to be able to pair users based on their common favorites. Through that connection, we wanted to be able to randomize movie suggestions based on films that were not listed in their favorites.</p>
+<p>
+ Have you ever found yourself in a situation where you were so hungry that everything sounds good, making it a lot harder to choose a restaurant? You're not alone!
+ Our app was born with the sole purpose of helping you during those moments of indecisiveness.
+</p>
 
 <h2>Intro Video</h2>
 
-[Youtube](https://youtu.be/4FPFncLoqTw)
+
 
 <h2>Technologies</h2>
 
