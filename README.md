@@ -46,7 +46,7 @@ You are now ready to start using the first iteration of mysterEAT!<br>
 <h2>Instructions</h2>
 <ol>
  <li>Explore our catalog of Denver's highly-rated restaurants.</li>
- <li>If you're in a hurry & feeling spontaneous take a chance with our mysterEAT button.</li>
+ <li>If you're in a hurry & feeling spontaneous, take a chance with our mysterEAT button.</li>
  <li>Otherwise, use our search to narrow down the field of restaurant cards by cuisine.</li>
  <li>Still undecided? Allow us to help you by making a restaurant suggestion via our state-of-the-art mysterEAT feature.</li>
  <li>Interested in a different cuisine? Try searching for a new one in the top right or simply click on our logo to return to the main catalog.</li>
