@@ -85,17 +85,17 @@ function surpriseRestaurant() {
 <h4>Search Filter:</h4>
 
 ```
-    def index
-        if params[:search_term] 
-            @restaurants = Restaurant.joins(:cuisine).where(
-                "cuisines.name LIKE '%#{params[:search_term]}%'"
-            )
-        else
-            @restaurants = Restaurant.all
-        end
+def index
+     if params[:search_term] 
+          @restaurants = Restaurant.joins(:cuisine).where(
+             "cuisines.name LIKE '%#{params[:search_term]}%'"
+         )
+     else
+         @restaurants = Restaurant.all
+     end
         
-        render json: @restaurants,  include:[ :location, :cuisine ]
-    end
+         render json: @restaurants,  include:[ :location, :cuisine ]
+end
 ```
 
 <h2>App Preview</h2>
