@@ -100,8 +100,8 @@ end
 
 <h2>App Preview</h2>
 <img src="https://i.imgur.com/1J5kitb.png" border="0" style="width:auto;height:30%;"/><br>
-<img src="https://i.imgur.com/7Wg9P5n.png" border="0" style="width:10%;height:auto;"/><br>
-<img src="https://i.imgur.com/fFRTnhQ.png" border="0" style="width:20%;height:30%;"/><br>
+<img src="https://i.imgur.com/7Wg9P5n.png" border="0" style="width:auto;height:30%;"/><br>
+<img src="https://i.imgur.com/fFRTnhQ.png" border="0" style="width:auto;height:30%;"/><br>
 
 <h2>Status</h2>
 
