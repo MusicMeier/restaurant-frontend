@@ -76,6 +76,27 @@ function surpriseRestaurant() {
 }
 ```
 
+<h4>Onclick Button for Randomize Function:</h4>
+
+```
+<button id="suprise-card-info-button" onclick="surpriseRestaurant()">Your MysterEAT here!</button>
+```
+
+<h4>Search Filter:</h4>
+
+```
+    def index
+        if params[:search_term] 
+            @restaurants = Restaurant.joins(:cuisine).where(
+                "cuisines.name LIKE '%#{params[:search_term]}%'"
+            )
+        else
+            @restaurants = Restaurant.all
+        end
+        
+        render json: @restaurants,  include:[ :location, :cuisine ]
+    end
+```
 
 <h2>App Preview</h2>
 <img src="https://i.ibb.co/xmZDVr0/Screen-Shot-2020-10-02-at-10-37-54-AM.png" alt="Welcome Screen" border="0"><br>
