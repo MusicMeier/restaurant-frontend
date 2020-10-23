@@ -32,15 +32,14 @@ mysterEAT is a cutting-edge single-page web-based application that allows users 
 </ul>
 
 <h2>Setup</h2>
-To run this project, create a folder on your local environment where you can clone the "restaurant-frontend" and "restaurant-backend" GitHub repositories.<br><br>
-Open both in your code editor.<br>
-From your backend folder perform the following commands:<br><br>
+To run this project, create a folder on your local environment where you can clone the "restaurant-frontend" and "restaurant-backend" GitHub repositories. Open both in your code editor.<br>
+From your backend folder perform the following commands:<br>
 <li>Use the command to install all required gems: <code>bundle install</code></li>
 <li>Use the Rails command: <code>rails db:migrate</code></li>
 <li>Seed your backend database tables using the following command: <code>rails db:seed</code></li>
-<li>Run the backend with command <code>rails s</code></li>
+<li>Run the backend with command <code>rails s</code></li><br>
 From your frontend folder perform the following command: <code>lite-server</code><br><br>
-You are now ready to start using the first iteration of mysterEAT!<br><br>
+You are now ready to start using the first iteration of mysterEAT!<br>
 
 <i>*Please note that some features are still a work in progress.</i>
 
