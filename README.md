@@ -1,6 +1,6 @@
 <img src="https://i.imgur.com/o49TYwV.png"/>
 <h1>mysteryEAT</h1>
-A community of people who love Studio Ghibli films!
+An app to help you decide where to eat on a whim.
 <br></br>
 <h2>General Info</h2>
 <p>
