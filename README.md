@@ -94,7 +94,7 @@ def index
          @restaurants = Restaurant.all
      end
         
-         render json: @restaurants,  include:[ :location, :cuisine ]
+     render json: @restaurants,  include:[ :location, :cuisine ]
 end
 ```
 
