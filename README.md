@@ -99,7 +99,7 @@ end
 ```
 
 <h2>App Preview</h2>
-<img src="https://i.imgur.com/1J5kitb.png" border="0" width="999" height="auto"/><br>
+<img src="https://i.imgur.com/1J5kitb.png" border="0" width="1050" height="auto"/><br>
 <img src="https://i.imgur.com/7Wg9P5n.png" border="0" width="350" height="auto"/><br>
 <img src="https://i.imgur.com/fFRTnhQ.png" border="0" width="350" height="auto"/><br>
 
