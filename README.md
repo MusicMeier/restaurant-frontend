@@ -1,11 +1,11 @@
 <img src="https://i.imgur.com/o49TYwV.png"/>
-<h1>mysteryEAT</h1>
+<h1>mysterEAT</h1>
 An app to help you decide where to eat on a whim.
 <br></br>
 <h2>General Info</h2>
 <p>
-Studio Ghibli Film Finder & Friend Zone is a CLI application that allows users to create a profile, discover Studio Ghibli films and read their descriptions, add films to their favorites and view them.<br>
-<br>"Let's Lose Our Way, Together." :heart:</br>
+mysterEAT is a cutting-edge single-page web-based application that allows users to discover Denver's premier restaurants through an extensive catalog spanning your favorite cuisines. How do we do this you ask?! mysteryEAT delivers a user experience catering to our inner spontaneity by offering users the opportunity to be surprised with a random restaurant suggestion. Additionally, users have the ability to search through the catalog with our cuisine search algorithm. Our mission is to become your app of choice when deciding what to eat with loved ones feels like a mystery.<br>
+<br>:heart:</br>
 </p>
 
 <h2>Inspiration</h2>
