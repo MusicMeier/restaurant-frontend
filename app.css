@@ -82,8 +82,8 @@ body {
     margin-right: 10px;
     margin-left: 10px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     border-radius: 8px;
 } 
 
@@ -186,6 +186,8 @@ body {
 }
 
 .card-info {
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
     justify-self: flex-end;
 }
